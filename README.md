@@ -82,7 +82,7 @@ where `s` is the sample [standard deviation][standard-deviation].
 ## Usage
 
 ```javascript
-import dsempn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsempn@deno/mod.js';
+import dsempn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsempn@v0.1.1-deno/mod.js';
 ```
 
 #### dsempn( N, correction, x, strideX )
@@ -181,7 +181,7 @@ var v = dsempn.ndarray( 4, 1, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dsempn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsempn@deno/mod.js';
+import dsempn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dsempn@v0.1.1-deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
